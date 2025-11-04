@@ -2,7 +2,7 @@
 from fastmcp import FastMCP
 import random
 
-mcp = FastMCP(title="Toy MCP Server")
+mcp = FastMCP("MCP Server")
 
 FACTS = [
     "Bananas are berries, but strawberries are not.",
